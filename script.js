@@ -1,41 +1,41 @@
 //*To create all HTML elements:
 //^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-var form_tag = allHtmlElements("form");
+let form_tag = allHtmlElements("form");
 form_tag.classList.add("row", "brewery-search");
 //console.log(form_tag);
 
 //----------------------------------------------------------------
-var div_container = allHtmlElements("div");
+let div_container = allHtmlElements("div");
 div_container.setAttribute("class", "container");
 
 //----------------------------------------------------------------
-var div_row = allHtmlElements("div");
+let div_row = allHtmlElements("div");
 div_row.setAttribute("class", "row");
 
 //----------------------------------------------------------------
-var div_col_md_3 = allHtmlElements("div");
+let div_col_md_3 = allHtmlElements("div");
 div_col_md_3.setAttribute("class", "col-md-3");
 
 //----------------------------------------------------------------
-var h2_tag = allHtmlElements("h2");
+let h2_tag = allHtmlElements("h2");
 h2_tag.setAttribute("class", "form-title");
 h2_tag.innerHTML = "Find Your Brewery Type";
 
 //----------------------------------------------------------------
-var list_p_tag = allHtmlElements("p");
+let list_p_tag = allHtmlElements("p");
 list_p_tag.innerHTML = "Lists of Types ⏩⏩⏩";
 
 //----------------------------------------------------------------
-var div_col_md_9 = allHtmlElements("div");
+let div_col_md_9 = allHtmlElements("div");
 div_col_md_9.setAttribute("class", "col-md-9");
 
 //----------------------------------------------------------------
-var div_input_group = allHtmlElements("div");
+let div_input_group = allHtmlElements("div");
 div_input_group.setAttribute("class", "input-group");
 
 //----------------------------------------------------------------
-var input_tag = allHtmlElements("input");
+let input_tag = allHtmlElements("input");
 input_tag.setAttribute("type", "search");
 input_tag.setAttribute("id", "search-bar");
 input_tag.setAttribute("class", "form-control");
@@ -43,7 +43,7 @@ input_tag.setAttribute("placeholder", "Enter your favourite Brew type🍻");
 //console.log(input_tag);
 
 //----------------------------------------------------------------
-var button_tag = allHtmlElements("button");
+let button_tag = allHtmlElements("button");
 button_tag.setAttribute("type", "button");
 button_tag.setAttribute("id", "search-btn");
 
@@ -52,45 +52,45 @@ button_tag.innerHTML = "Search🔍";
 //console.log(button_tag);
 
 //----------------------------------------------------------------
-var mark_p_tag = allHtmlElements("p");
+let mark_p_tag = allHtmlElements("p");
 
-var mark_1 = allHtmlElements("mark");
+let mark_1 = allHtmlElements("mark");
 mark_1.setAttribute("id", "mark-1");
 mark_1.innerHTML = "micro";
 
-var mark_2 = allHtmlElements("mark");
+let mark_2 = allHtmlElements("mark");
 mark_2.setAttribute("id", "mark-2");
 mark_2.innerHTML = "nano";
 
-var mark_3 = allHtmlElements("mark");
+let mark_3 = allHtmlElements("mark");
 mark_3.setAttribute("id", "mark-3");
 mark_3.innerHTML = "large";
 
-var mark_4 = allHtmlElements("mark");
+let mark_4 = allHtmlElements("mark");
 mark_4.setAttribute("id", "mark-4");
 mark_4.innerHTML = "brewpub";
 
-var mark_5 = allHtmlElements("mark");
+let mark_5 = allHtmlElements("mark");
 mark_5.setAttribute("id", "mark-5");
 mark_5.innerHTML = "planning";
 
-var mark_6 = allHtmlElements("mark");
+let mark_6 = allHtmlElements("mark");
 mark_6.setAttribute("id", "mark-6");
 mark_6.innerHTML = "regional";
 
-var mark_7 = allHtmlElements("mark");
+let mark_7 = allHtmlElements("mark");
 mark_7.setAttribute("id", "mark-7");
 mark_7.innerHTML = "bar";
 
-var mark_8 = allHtmlElements("mark");
+let mark_8 = allHtmlElements("mark");
 mark_8.setAttribute("id", "mark-8");
 mark_8.innerHTML = "closed";
 //----------------------------------------------------------------
 
-var br_tag = allHtmlElements("br");
+let br_tag = allHtmlElements("br");
 
 //----------------------------------------------------------------
-var div_container_fluid = allHtmlElements("div");
+let div_container_fluid = allHtmlElements("div");
 div_container_fluid.setAttribute("class", "container-fluid");
 
 //----------------------------------------------------------------
